@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/DUI-2/static/css/main.dedf1d8b.css",
-    "main.js": "/DUI-2/static/js/main.64060f0f.js",
-    "static/js/787.7b63f85e.chunk.js": "/DUI-2/static/js/787.7b63f85e.chunk.js",
-    "static/media/lihtarovich.jfif": "/DUI-2/static/media/lihtarovich.8085fbd010b2938f28a4.jfif",
-    "static/media/bulgak.jpg": "/DUI-2/static/media/bulgak.2c2991e896cc65246742.jpg",
-    "static/media/kaltovich.jpg": "/DUI-2/static/media/kaltovich.d3962d0f5a7e4d526b70.jpg",
-    "static/media/barety.jpg": "/DUI-2/static/media/barety.52a4f6a22394cd9f2b94.jpg",
-    "static/media/alyakseey.jpg": "/DUI-2/static/media/alyakseey.d97c4499f61147c76d61.jpg",
-    "index.html": "/DUI-2/index.html",
-    "main.dedf1d8b.css.map": "/DUI-2/static/css/main.dedf1d8b.css.map",
-    "main.64060f0f.js.map": "/DUI-2/static/js/main.64060f0f.js.map",
-    "787.7b63f85e.chunk.js.map": "/DUI-2/static/js/787.7b63f85e.chunk.js.map"
+    "main.css": "/DUI-2/homepage/static/css/main.5431d2b6.css",
+    "main.js": "/DUI-2/homepage/static/js/main.12adba71.js",
+    "static/js/787.7b63f85e.chunk.js": "/DUI-2/homepage/static/js/787.7b63f85e.chunk.js",
+    "static/media/lihtarovich.jfif": "/DUI-2/homepage/static/media/lihtarovich.8085fbd010b2938f28a4.jfif",
+    "static/media/bulgak.jpg": "/DUI-2/homepage/static/media/bulgak.2c2991e896cc65246742.jpg",
+    "static/media/kaltovich.jpg": "/DUI-2/homepage/static/media/kaltovich.d3962d0f5a7e4d526b70.jpg",
+    "static/media/barety.jpg": "/DUI-2/homepage/static/media/barety.52a4f6a22394cd9f2b94.jpg",
+    "static/media/alyakseey.jpg": "/DUI-2/homepage/static/media/alyakseey.d97c4499f61147c76d61.jpg",
+    "index.html": "/DUI-2/homepage/index.html",
+    "main.5431d2b6.css.map": "/DUI-2/homepage/static/css/main.5431d2b6.css.map",
+    "main.12adba71.js.map": "/DUI-2/homepage/static/js/main.12adba71.js.map",
+    "787.7b63f85e.chunk.js.map": "/DUI-2/homepage/static/js/787.7b63f85e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dedf1d8b.css",
-    "static/js/main.64060f0f.js"
+    "static/css/main.5431d2b6.css",
+    "static/js/main.12adba71.js"
   ]
 }
