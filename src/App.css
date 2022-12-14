@@ -1,0 +1,272 @@
+
+body{
+  background-color:#bcebdf;
+  text-align: center;
+}
+.header-container{
+  height:50px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #31b090;
+  flex-flow:row;
+  margin-bottom: 40px;
+}
+.BodyContainer{
+  display: flex;
+  flex-flow:column;
+  height: 3000px;
+}
+.navigation{
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  background-color:#31b090 ;
+}
+.navigationlist{
+  display: flex;
+  justify-content: flex-start;
+  height:40%;
+  background-color:#31b090 ;
+}
+.navigationlist li{
+  display: inline;
+  padding-right: 5%;
+  width:200px;
+  background-color:#31b090 ;
+}
+.navigationlist a{
+  background-color:#31b090;
+ 
+  font-family: "Roboto";
+  color:#9bebd7;
+  font-weight: 800;
+  font-size:16px;
+  border-radius:10px;
+  text-decoration: none;
+}
+.navigationlist a:hover{
+font-size: 18px;
+text-decoration:underline;
+color:#217591;
+}
+.MainContainer{
+  padding-top:10px;
+}
+.MainContainer h1{
+  font-family: "Roboto";
+  font-size: 40px;
+  font-weight: bold;
+  color:#217591;
+}
+.HumanOfDay{
+  display: flex;
+  height:auto;
+  flex-direction: row;
+  justify-content: center;
+  padding-top:20px;
+  padding-bottom: 100px;
+}
+.Human{
+  width:auto;
+  padding-top:20px;
+  border-right: 2px solid #65af9d;; /* Параметры границы */
+  background-color: #bcebdf;
+  text-align: center;
+  height:auto;
+  
+}
+.Human h1{
+  font-family:"Roboto";
+  font-size:25px;
+  color:#217591;
+}
+.Human h2{
+  font-family:"Roboto";
+  font-size:20px;
+  color:#217591;
+}
+.HumanDayInfo{
+
+  width:20%;
+  text-align: center;
+  display: flex;
+  flex-flow:column;
+  padding-left: 30px;
+  font-family: "Roboto";
+  font-size:16px;
+  padding-top:30px;
+  color:#217591;
+}
+.Image{
+  display: flex;
+  flex-flow:row;
+  justify-content: center;
+}
+.DayPersonBtn button{
+  border-radius: 30px;
+  width:300px;
+  background-color: #9bebd7;
+  text-align: center;
+  height:50px;
+  margin-top:15px;
+  color:#217591;
+  font-weight: bold;
+  font-size:25px;
+  border:0px;
+  font-family: "Roboto";
+  -webkit-box-shadow: 4px -3px 38px 2px rgba(33, 118, 103, 0.43);
+  -moz-box-shadow: 4px -3px 38px 2px rgba(33, 118, 103, 0.43);
+  box-shadow: 4px -3px 38px 2px rgba(33, 118, 103, 0.43);
+}
+.DayPersonBtn button:hover{
+  background-color: #31b090;
+  -webkit-box-shadow: -1px 0px 13px 11px rgba(99, 197, 180, 0.6);
+  -moz-box-shadow: -1px 0px 13px 11px rgba(99, 197, 180, 0.6);
+  box-shadow: -1px 0px 13px 11px rgba(99, 197, 180, 0.6);
+  color:#9bebd7;
+}
+.Developers{
+  padding-top:100px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-flow:row;
+  justify-content: center;
+}
+.Developers-Container{
+  display: flex;
+  flex-flow:row;
+  width:80%;
+  justify-content: space-between;
+}
+.Developer{
+  width: 350px;
+  height: 450px;
+  justify-items: center;
+  border-radius: 20px;
+  border:1px solid #9bebd7;
+  background-color:#9bebd7;
+  -webkit-box-shadow: -1px 0px 13px 11px rgba(99, 197, 180, 0.6);
+  -moz-box-shadow: -1px 0px 13px 11px rgba(99, 197, 180, 0.6);
+  box-shadow: -1px 0px 13px 11px rgba(99, 197, 180, 0.6);
+}
+.Developer p{
+  text-align:center;
+  background-color: #9bebd7;
+  padding-top:20px;
+}
+.DeveloperImage{
+  border-radius: 150px;
+  text-align:center;
+  background-color: #9bebd7;
+  padding-top:20px;
+}
+.DeveloperIcons{
+  background-color: inherit;
+  display: flex;
+  flex-flow:row;
+  justify-content: center;
+  padding-top: 20px;
+}
+.DeveloperIcons i{
+  font-size:30px;
+  background-color: inherit;
+  width:35px;
+  border-radius: 20px;
+}
+.Icons{
+  display: Flex;
+  flex-flow:row;
+  width:28%;
+  justify-content: space-between;
+  background-color: inherit;
+ 
+}
+.Icons a{
+  background-color: inherit;
+  color:black;
+}
+
+.Icons i:hover{
+  font-size:33px;
+}
+.HumanOfDayLogo{
+  text-align:center;
+  padding-top:40px;
+}
+.DeveloperName{
+  font-family: "Roboto";
+  font-size:20px;
+/*  color:#268aab;*/
+  color:#217591;
+  font-weight: 700;
+}
+.Human h1{
+  margin-bottom:5px;
+}
+.Human h2{
+  margin-top:5px;
+}
+.firstBorder{
+  height: 2px;
+  border-bottom: 2px solid #65af9d;
+  width:90%;
+  margin-left:5%;
+}
+.AboutSiteContainer{
+  height:auto;
+  padding-top:40px;
+  padding-bottom:40px;
+  display: flex;
+  flex-flow:row;
+  justify-content: center;
+}
+.SiteInfo{
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size:16px;
+  text-align: center;
+  background-color: #bcebdf;
+  width:60%; 
+}
+.SiteInfo p{
+  background-color: inherit;
+  color:#217591;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
