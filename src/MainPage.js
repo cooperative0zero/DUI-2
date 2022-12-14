@@ -59,10 +59,9 @@ class OnListPageButton extends React.Component{
 
 function MainPage() {
     const  [locale,setLocale]= useState(LOCALES.RUSSIAN); 
-    function LangButtons(props){  
-        const [state, setValue] = useState('');        
+    function LangButtons(props){       
         return (
-        <ToggleButtonGroup type="radio" name="options" class="menu-languages" 
+        <ToggleButtonGroup type="radio" name="options" defaultValue={0} class="menu-languages" 
         >
           <ToggleButton 
             id="lang-ru"
@@ -70,12 +69,10 @@ function MainPage() {
             value={0}
             href="#"
             size='sm'
-            onChange={(e) => {setValue(e.target.value); if (e.target.value == 1) setLocale(LOCALES.ENGLISH); else setLocale(LOCALES.RUSSIAN);}}
             >
             Русский
           </ToggleButton>
           <ToggleButton id="lang-en" variant="outline-secondary" value={1} href="#" size='sm' 
-          onChange={(e) => {setLocale(LOCALES.ENGLISH); setLocale(LOCALES.ENGLISH); setValue(e.target.value); if (e.target.value == 1) setLocale(LOCALES.ENGLISH); else setLocale(LOCALES.RUSSIAN);}}
           >
             Английский
           </ToggleButton>
