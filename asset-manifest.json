@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DUI-2/static/css/main.dedf1d8b.css",
-    "main.js": "/DUI-2/static/js/main.6f9fc918.js",
+    "main.js": "/DUI-2/static/js/main.2f2fb659.js",
     "static/js/787.7b63f85e.chunk.js": "/DUI-2/static/js/787.7b63f85e.chunk.js",
     "static/media/lihtarovich.jfif": "/DUI-2/static/media/lihtarovich.8085fbd010b2938f28a4.jfif",
     "static/media/bulgak.jpg": "/DUI-2/static/media/bulgak.2c2991e896cc65246742.jpg",
@@ -10,11 +10,11 @@
     "static/media/alyakseey.jpg": "/DUI-2/static/media/alyakseey.d97c4499f61147c76d61.jpg",
     "index.html": "/DUI-2/index.html",
     "main.dedf1d8b.css.map": "/DUI-2/static/css/main.dedf1d8b.css.map",
-    "main.6f9fc918.js.map": "/DUI-2/static/js/main.6f9fc918.js.map",
+    "main.2f2fb659.js.map": "/DUI-2/static/js/main.2f2fb659.js.map",
     "787.7b63f85e.chunk.js.map": "/DUI-2/static/js/787.7b63f85e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dedf1d8b.css",
-    "static/js/main.6f9fc918.js"
+    "static/js/main.2f2fb659.js"
   ]
 }
